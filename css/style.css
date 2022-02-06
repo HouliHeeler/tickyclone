@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(76, 82, 104);
+    justify-content: center;
+}
+
+a {
+   color: rgb(216, 216, 77);
+   text-decoration: none;
+   transition: color 1s;
+   font-size: 1.4em;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    background-color: rgb(74, 189, 235);
+    padding: 2em;
+    gap: 2em;
+}
+
+.homeleft {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 65%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+#mainbutton {
+    background-color: white;
+}
+
+#mainbutton a {
+    color: rgb(76, 82, 104);
+}
+
+#mainbutton img {
+    transition: transform .7s ease-in-out;
+}
+#mainbutton img:hover {
+    transform: rotate(15deg) scale(1.1);
+}
+
+h1 {
+    font-size: 5em;
+    color: rgb(76, 82, 104);
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.5em;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+
+.whatis {
+    display: flex;
+    background-color: whitesmoke;
+    color: rgb(76, 82, 104);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 0;
+    gap: 0;
+}
+
+.paras {
+    display: flex;
+}
+
+.paras section {
+    display: flex;
+    justify-content: center;
+}
+
+.whatis p {
+    color: rgb(76, 82, 104);
+    font-size: .9em;
+    width: 75%;
+}
+
+h2 {
+    font-size: 2em;
+    position: relative;
+}
+
+h2:before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    bottom: 0;
+    left: 15%;
+    border-bottom: solid 3px rgb(74, 189, 235);
+}
+
+.brokeimg {
+    display: flex;
+    flex-direction: column;
+    font-size: .9em;
+    margin: 7%;
+    gap: .5em;
+}
+
+#brokeimg {
+    font-style: italic;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 212, 167);
+    align-items: center;
+}
+
+.how h2 {
+    font-size: 3.5em;
+    color: rgb(76, 82, 104);
+    margin: .5em;
+}
+
+.howsect {
+    display: flex;
+    background-color: rgb(94, 212, 167);
+    justify-content: space-between;
+    width: 100%;  
+}
+
+.imgtext {
+    background-color: whitesmoke;
+    color: rgb(135, 145, 180);
+    width: 100%;
+    height: 5em;
+    margin-top: -4px;
+    padding: .5em;
+}
+
+.imgtext a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 1em;
+}
+
+.imgblock {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.imgbottom, #imgbottom {
+    width: 100%;
+}
+
+code {
+    color: rgb(196, 18, 18);
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: solid grey 1px;
+}
+
+.starttick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: rgb(76, 82, 104);
+    width: 50%;
+}
+
+.starttick p, .starttick span {
+    color: rgb(76, 82, 104);
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.starttick h2 {
+    font-size: 2.5em;
+}
+
+.starttick h2::before {
+    width: 40%;
+    left: 30%;
+}
+
+#endbutton {
+    background-color: rgb(76, 82, 104);
+    color: whitesmoke;
+    margin: 20px 0;
+}
+
+#endbutton img {
+    transition: transform .7s ease-in-out;
+}
+#endbutton img:hover {
+    transform: rotate(15deg) scale(1.1);
+}
+
+#endbutton a {
+    color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(76, 82, 104);
+    color: whitesmoke;
+    padding: 20px 0;
+    font-size: .9em;
+}
+
+footer a {
+    text-decoration: underline;
+    font-size: 1em;
+    color: whitesmoke;
+}
