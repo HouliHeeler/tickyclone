@@ -1,7 +1,20 @@
-# tickyclone
+TickyClone
+
+
+
+
+
+
+
+OVERVIEW
+
 Personal Project replication of TickyBot
 
 In this code, I am building a replication of the TickyBot website in order to showcase some ability with HTML, CSS, and vanilla Javascript.
+
+
+
+FEATURES
 
 The website will do the following:
 
@@ -11,7 +24,7 @@ The website will do the following:
 
 
 
-Challenges Encountered
+CHALLENGES
 
 Even with a basic site like Tickybot, there were many things I had to go through and learn. Specifically the Javascript functions were a lot of Googling, understanding, and passing in my own code to cater it to my needs.
 
